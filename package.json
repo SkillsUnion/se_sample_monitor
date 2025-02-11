@@ -1,0 +1,17 @@
+{
+  "name": "se_sample_monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-prom-bundle": "^8.0.0",
+    "prom-client": "^15.1.3"
+  }
+}
